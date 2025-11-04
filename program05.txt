@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>list</title>
+    <style>
+        .Header{
+            background-color: whitesmoke;
+            padding: 20px ;
+        }
+        .L{
+            background-color: antiquewhite;
+            
+            
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="Header">
+    <h1>program to demonstrate:</h1>
+    <h2>Order unorder and Defination list </h2>
+    </div>
+    <div class="L">
+        <h2>Orderd list</h2>
+        <i>List of students</i>
+        <ol>
+            <li>Naman sharma</li>
+            <li>Chirag rathor</li>
+            <li>Shivam bhamaniya</li>
+            <li>Aditya saini</li>
+            <li>Parth saini</li>
+        </ol>
+        
+    </div>
+
+    <div class="L">
+        <h2>unorderd list</h2>
+        <i>List of animals</i>
+        <ul>
+            <li>Bengal tiger</li>
+            <li>Alligator</li>
+            <li>African forest elephent</li>
+            <li>African lion</li>
+            <li>Addax</li>
+        </ul>
+        
+    </div>
+
+    <div class="L"><!--dl:defination liust dt:define a term dd:defined data-->
+        <h2>Defination list</h2>
+<dl>
+  <dt>Coffee</dt>
+  <dd>Black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>White cold drink</dd>
+</dl>
+    </div>
+</body>
+</html>
